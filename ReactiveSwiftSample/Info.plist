@@ -33,8 +33,10 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
 	</array>
+	<key>apiKey</key>
+	<string>1TqsQk4LEMyBxpzg3uvYs2vFjqRJjrUlBb4OxlJI</string>
 </dict>
 </plist>

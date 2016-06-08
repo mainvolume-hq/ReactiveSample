@@ -7,21 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AEEA15901D088CD60024E2F2 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA158B1D088CD60024E2F2 /* Photo.swift */; };
+		AEEA15911D088CD60024E2F2 /* PhotoQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA158C1D088CD60024E2F2 /* PhotoQuery.swift */; };
+		AEEA15921D088CD60024E2F2 /* PhotoSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA158D1D088CD60024E2F2 /* PhotoSearch.swift */; };
+		AEEA15931D088CD60024E2F2 /* PhotoSearchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA158E1D088CD60024E2F2 /* PhotoSearchError.swift */; };
+		AEEA15941D088CD60024E2F2 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA158F1D088CD60024E2F2 /* Result.swift */; };
+		AEEA15971D0896600024E2F2 /* PhotoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA15961D0896600024E2F2 /* PhotoTVC.swift */; };
 		AEF1FC8A1D086E78002FD60F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1FC891D086E78002FD60F /* AppDelegate.swift */; };
 		AEF1FC8C1D086E78002FD60F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1FC8B1D086E78002FD60F /* ViewController.swift */; };
-		AEF1FC8F1D086E78002FD60F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF1FC8D1D086E78002FD60F /* Main.storyboard */; };
 		AEF1FC911D086E78002FD60F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF1FC901D086E78002FD60F /* Assets.xcassets */; };
 		AEF1FC941D086E78002FD60F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF1FC921D086E78002FD60F /* LaunchScreen.storyboard */; };
+		AEF1FC9C1D086EB2002FD60F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF1FC9B1D086EB2002FD60F /* Main.storyboard */; };
+		AEF1FCE31D087460002FD60F /* ReactiveKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF1FCDF1D087453002FD60F /* ReactiveKit.framework */; };
+		AEF1FCE41D087460002FD60F /* ReactiveKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEF1FCDF1D087453002FD60F /* ReactiveKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AEF1FCE51D087460002FD60F /* ReactiveUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF1FCE11D087453002FD60F /* ReactiveUIKit.framework */; };
+		AEF1FCE61D087460002FD60F /* ReactiveUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEF1FCE11D087453002FD60F /* ReactiveUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AEF1FCE91D0875CE002FD60F /* SearchPhotoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1FCE81D0875CE002FD60F /* SearchPhotoVM.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AEF1FCE71D087460002FD60F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AEF1FCE61D087460002FD60F /* ReactiveUIKit.framework in Embed Frameworks */,
+				AEF1FCE41D087460002FD60F /* ReactiveKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		AEEA158B1D088CD60024E2F2 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		AEEA158C1D088CD60024E2F2 /* PhotoQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoQuery.swift; sourceTree = "<group>"; };
+		AEEA158D1D088CD60024E2F2 /* PhotoSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSearch.swift; sourceTree = "<group>"; };
+		AEEA158E1D088CD60024E2F2 /* PhotoSearchError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSearchError.swift; sourceTree = "<group>"; };
+		AEEA158F1D088CD60024E2F2 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		AEEA15961D0896600024E2F2 /* PhotoTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTVC.swift; sourceTree = "<group>"; };
 		AEF1FC861D086E78002FD60F /* ReactiveSwiftSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveSwiftSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF1FC891D086E78002FD60F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEF1FC8B1D086E78002FD60F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AEF1FC8E1D086E78002FD60F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEF1FC901D086E78002FD60F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEF1FC931D086E78002FD60F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEF1FC951D086E78002FD60F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF1FC9B1D086EB2002FD60F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AEF1FCDB1D087453002FD60F /* 18DF8356-A56C-33DD-8506-66228228C647.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "18DF8356-A56C-33DD-8506-66228228C647.bcsymbolmap"; sourceTree = "<group>"; };
+		AEF1FCDC1D087453002FD60F /* 531C3F8D-8DEE-30F6-AE40-E9E30D4048FD.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "531C3F8D-8DEE-30F6-AE40-E9E30D4048FD.bcsymbolmap"; sourceTree = "<group>"; };
+		AEF1FCDD1D087453002FD60F /* BEE01AD1-B9FF-3F00-9875-1F0E6B7EA589.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "BEE01AD1-B9FF-3F00-9875-1F0E6B7EA589.bcsymbolmap"; sourceTree = "<group>"; };
+		AEF1FCDE1D087453002FD60F /* FD32452F-9934-3B97-841E-BBF43F974DE3.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FD32452F-9934-3B97-841E-BBF43F974DE3.bcsymbolmap"; sourceTree = "<group>"; };
+		AEF1FCDF1D087453002FD60F /* ReactiveKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ReactiveKit.framework; sourceTree = "<group>"; };
+		AEF1FCE01D087453002FD60F /* ReactiveKit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = ReactiveKit.framework.dSYM; sourceTree = "<group>"; };
+		AEF1FCE11D087453002FD60F /* ReactiveUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ReactiveUIKit.framework; sourceTree = "<group>"; };
+		AEF1FCE21D087453002FD60F /* ReactiveUIKit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = ReactiveUIKit.framework.dSYM; sourceTree = "<group>"; };
+		AEF1FCE81D0875CE002FD60F /* SearchPhotoVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPhotoVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,15 +70,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF1FCE51D087460002FD60F /* ReactiveUIKit.framework in Frameworks */,
+				AEF1FCE31D087460002FD60F /* ReactiveKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AEEA15951D088CF30024E2F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEEA158B1D088CD60024E2F2 /* Photo.swift */,
+				AEEA158C1D088CD60024E2F2 /* PhotoQuery.swift */,
+				AEEA158D1D088CD60024E2F2 /* PhotoSearch.swift */,
+				AEEA158E1D088CD60024E2F2 /* PhotoSearchError.swift */,
+				AEEA158F1D088CD60024E2F2 /* Result.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AEEA15981D08A31F0024E2F2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AEEA15961D0896600024E2F2 /* PhotoTVC.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		AEEA15991D08A3220024E2F2 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				AEF1FC8B1D086E78002FD60F /* ViewController.swift */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		AEEA159A1D08A32F0024E2F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEF1FCDA1D087453002FD60F /* iOS */,
+			);
+			name = Frameworks;
+			path = ReactiveSwiftSample;
+			sourceTree = "<group>";
+		};
+		AEEA159B1D08A33F0024E2F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AEF1FC901D086E78002FD60F /* Assets.xcassets */,
+				AEF1FC921D086E78002FD60F /* LaunchScreen.storyboard */,
+				AEF1FC951D086E78002FD60F /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		AEF1FC7D1D086E77002FD60F = {
 			isa = PBXGroup;
 			children = (
+				AEEA159A1D08A32F0024E2F2 /* Frameworks */,
 				AEF1FC881D086E78002FD60F /* ReactiveSwiftSample */,
 				AEF1FC871D086E78002FD60F /* Products */,
 			);
@@ -54,14 +145,47 @@
 		AEF1FC881D086E78002FD60F /* ReactiveSwiftSample */ = {
 			isa = PBXGroup;
 			children = (
+				AEF1FCEA1D0875D5002FD60F /* Modelling */,
+				AEF1FCEB1D0875E4002FD60F /* Views */,
 				AEF1FC891D086E78002FD60F /* AppDelegate.swift */,
-				AEF1FC8B1D086E78002FD60F /* ViewController.swift */,
-				AEF1FC8D1D086E78002FD60F /* Main.storyboard */,
-				AEF1FC901D086E78002FD60F /* Assets.xcassets */,
-				AEF1FC921D086E78002FD60F /* LaunchScreen.storyboard */,
-				AEF1FC951D086E78002FD60F /* Info.plist */,
+				AEF1FC9B1D086EB2002FD60F /* Main.storyboard */,
+				AEEA159B1D08A33F0024E2F2 /* Resources */,
 			);
 			path = ReactiveSwiftSample;
+			sourceTree = "<group>";
+		};
+		AEF1FCDA1D087453002FD60F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AEF1FCDB1D087453002FD60F /* 18DF8356-A56C-33DD-8506-66228228C647.bcsymbolmap */,
+				AEF1FCDC1D087453002FD60F /* 531C3F8D-8DEE-30F6-AE40-E9E30D4048FD.bcsymbolmap */,
+				AEF1FCDD1D087453002FD60F /* BEE01AD1-B9FF-3F00-9875-1F0E6B7EA589.bcsymbolmap */,
+				AEF1FCDE1D087453002FD60F /* FD32452F-9934-3B97-841E-BBF43F974DE3.bcsymbolmap */,
+				AEF1FCDF1D087453002FD60F /* ReactiveKit.framework */,
+				AEF1FCE01D087453002FD60F /* ReactiveKit.framework.dSYM */,
+				AEF1FCE11D087453002FD60F /* ReactiveUIKit.framework */,
+				AEF1FCE21D087453002FD60F /* ReactiveUIKit.framework.dSYM */,
+			);
+			name = iOS;
+			path = ../Carthage/Build/iOS;
+			sourceTree = "<group>";
+		};
+		AEF1FCEA1D0875D5002FD60F /* Modelling */ = {
+			isa = PBXGroup;
+			children = (
+				AEEA15951D088CF30024E2F2 /* Model */,
+				AEF1FCE81D0875CE002FD60F /* SearchPhotoVM.swift */,
+			);
+			name = Modelling;
+			sourceTree = "<group>";
+		};
+		AEF1FCEB1D0875E4002FD60F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AEEA15981D08A31F0024E2F2 /* Cells */,
+				AEEA15991D08A3220024E2F2 /* VC */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +198,7 @@
 				AEF1FC821D086E78002FD60F /* Sources */,
 				AEF1FC831D086E78002FD60F /* Frameworks */,
 				AEF1FC841D086E78002FD60F /* Resources */,
+				AEF1FCE71D087460002FD60F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,9 +247,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF1FC9C1D086EB2002FD60F /* Main.storyboard in Resources */,
 				AEF1FC941D086E78002FD60F /* LaunchScreen.storyboard in Resources */,
 				AEF1FC911D086E78002FD60F /* Assets.xcassets in Resources */,
-				AEF1FC8F1D086E78002FD60F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +260,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEEA15971D0896600024E2F2 /* PhotoTVC.swift in Sources */,
+				AEEA15941D088CD60024E2F2 /* Result.swift in Sources */,
 				AEF1FC8C1D086E78002FD60F /* ViewController.swift in Sources */,
+				AEF1FCE91D0875CE002FD60F /* SearchPhotoVM.swift in Sources */,
 				AEF1FC8A1D086E78002FD60F /* AppDelegate.swift in Sources */,
+				AEEA15931D088CD60024E2F2 /* PhotoSearchError.swift in Sources */,
+				AEEA15911D088CD60024E2F2 /* PhotoQuery.swift in Sources */,
+				AEEA15921D088CD60024E2F2 /* PhotoSearch.swift in Sources */,
+				AEEA15901D088CD60024E2F2 /* Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AEF1FC8D1D086E78002FD60F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AEF1FC8E1D086E78002FD60F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AEF1FC921D086E78002FD60F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -249,6 +373,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ReactiveSwiftSample",
+					"$(PROJECT_DIR)/ReactiveSwiftSample/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ReactiveSwiftSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mainvolume.ReactiveSwiftSample;
@@ -260,6 +390,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ReactiveSwiftSample",
+					"$(PROJECT_DIR)/ReactiveSwiftSample/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ReactiveSwiftSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mainvolume.ReactiveSwiftSample;
@@ -286,6 +422,7 @@
 				AEF1FC9A1D086E78002FD60F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
